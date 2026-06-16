@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Informed Investor</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: #e0e0e0;
+      color: #000000;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* HEADER */
+    header {
+      background-color: #ffffff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 3rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    header h1 {
+      font-size: 1.4rem;
+      color: #000000;
+      margin: 0;
+    }
+
+    nav a {
+      color: #000000;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color:#000000;
+    }
+
+    /* HERO SECTION */
+    .hero {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #62a385;
+      border-bottom: 1px solid #62a385;
+    }
+
+    .hero h2 {
+      font-size: 2.2rem;
+      color: #000000;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: #000000;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* MAIN CONTENT */
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 3rem 1rem;
+      gap: 3rem;
+    }
+
+    /* PROFILE CARD */
+    .profile {
+      max-width: 600px;
+      text-align: center;
+      background: #ffffff;
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .profile img {
+      width: 400px;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #ffffff55;
+    }
+
+    .profile h2 {
+      margin-top: 1rem;
+      font-size: 1.3rem;
+    }
+
+    .profile h3 {
+      margin-top: 0.5rem;
+      font-weight: 400;
+      color: #000000;
+    }
+
+    .social-links {
+      margin-top: 1.5rem;
+    }
+
+    .social-links a {
+      color: #ffffff;
+      margin: 0 8px;
+      text-decoration: none;
+      font-size: 1.3rem;
+    }
+
+    .about-image-box {
+  background-color: #ffffff; /* soft dark green box */
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image-box img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 12px;
+  border: 2px solid #ffffff;
+}
+
+    /* ABOUT SECTION */
+    .about {
+      max-width: 900px;
+      background: #ffffff;
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .about h1 {
+      margin-top: 0;
+      color: #000000;
+    }
+
+    .about p {
+      line-height: 1.6;
+    }
+
+    button {
+      background-color: #243b35;
+      color: #fff;
+      border: none;
+      padding: 0.7rem 1.4rem;
+      border-radius: 8px;
+      margin-top: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #363636;
+      color: #e0e0e0;
+    }
+
+    .section {
+      margin-top: 2rem;
+    }
+
+    .section h2 {
+      color: #000000;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: #ffffff;
+      font-size: 0.9rem;
+      background-color: #e0e0e0;
+      border-top: 1px solid #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1>Informed Investor</h1>
+    <nav>
+      <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="main">
+    <h2>Gold Signal Group Überblick: Transparenter Broker mit fachkundiger Beratung und kundenorientierten Services</h2>
+    <p>Umfassende Unternehmensanalyse | Betrugsbekämpfung | Sichere Investition</p>
+  </section>
+
+  <!-- MAIN CONTENT -->
+  <div class="container">
+    <div class="profile">
+      <img src="your-photo.png" alt="Profile Photo">
+      <h2>Gold Signal Group</h2>
+      <h3>goldsignal-group.com<br>Switzerland</h3>
+         </div>
+
+    <div class="about" id="about">
+      <h2>Über das Unternehmen</h2>
+      <p>
+    Gold Signal Group ist ein kundenorientierter Broker, der sich auf ein transparentes und 
+        unterstützendes Handelserlebnis konzentriert. Das Unternehmen legt großen Wert 
+        auf Vertrauen, klare Kommunikation und langfristige Kundenbeziehungen. Durch 
+        die Kombination moderner Handelstechnologie mit professioneller Beratung schafft
+        Gold Signal Group ein strukturiertes Umfeld, das sowohl für Anfänger als auch für 
+        erfahrene Investoren geeignet ist.
+      
+      <p>
+         
+  <div class="section" id="interests">
+        <h2>Was das Unternehmen bietet</h2>
+        <p>
+  Gold Signal Group stellt eine Reihe von Dienstleistungen bereit, die Trader auf allen 
+          Erfahrungsstufen unterstützen. Dazu gehört fundierte Finanzberatung, bei 
+          der erfahrene Experten Kunden helfen, Markttrends zu verstehen und 
+          Strategien zu entwickeln. Darüber hinaus bietet das Unternehmen ein 
+          personalisiertes Kontomanagement, das auf individuelle Anlageziele 
+          abgestimmt ist. Trader profitieren außerdem von einer stabilen
+          Handelsplattform, Echtzeitdaten und Tools zur Verbesserung von 
+          Analyse und Entscheidungsfindung.
+
+        </p>
+    
+      <div class="section" id="interests">
+        <h2>Transparenz und Richtlinien</h2>
+        <p>
+    Eine der größten Stärken von Gold Signal Group ist das klare Bekenntnis zu Transparenz.
+          Alle Gebühren, Handelsbedingungen und Auszahlungsprozesse werden offen 
+          dargestellt, sodass Kunden genau wissen, was sie erwartet. Dies verhindert
+          unangenehme Überraschungen und stärkt das Vertrauen – insbesondere bei Anlegern, 
+          die zuvor negative Erfahrungen mit intransparenten Plattformen gemacht haben.
+
+        </p>
+  
+         <h2>Kundensupport und Nutzererfahrung</h2>
+        <p>
+    Gold Signal Group legt großen Wert auf Kundensupport und Benutzerfreundlichkeit. 
+          Kunden erhalten schnelle und kompetente Unterstützung sowie kontinuierliche 
+          Begleitung bei der Nutzung der Plattform. Diese Kombination aus professionellem
+          Service und strukturierten Angeboten sorgt für ein reibungsloses und 
+          zuverlässiges Handelserlebnis.
+
+        </p> 
+   
+        <h2>Fazit</h2>
+        <p>
+    Gold Signal Group überzeugt als zuverlässiger und transparenter Broker, der den Erfolg 
+          seiner Kunden in den Mittelpunkt stellt. Mit seinem Fokus auf fachkundige 
+          Beratung, individuelles Kontomanagement und klare Prozesse bietet das 
+          Unternehmen ein sicheres und professionelles Handelsumfeld. Für Anleger,
+          die einen vertrauenswürdigen Partner suchen, ist Gold Signal Group eine starke 
+          und empfehlenswerte Wahl.
+        </p>
+ 
+
+              </ul>
+          
+         <div class="about-image-box">
+  <img src="your-photo2.jpg" alt="About section image">
+</div>
+      </div>
+    </div>
+   </div>
+
+
